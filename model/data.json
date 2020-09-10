@@ -1,0 +1,85 @@
+{
+    "pageTextData":[
+     {
+        "title": "The awesome invention of PlayStation  ",
+        "subTitle": "First released by Sony in 1994",
+        "description": "The Coca Cola Company is the world's leading manufacturer, marketer and distributor of non-alcoholic beverage concentrates and syrups, and produces nearly 400 brands."
+    },
+
+    {
+    "title": "Coca Cola",
+    "subTitle": "New York Harbour 1886",
+    "description": "It was 1886, John Pemberton, an Atlanta pharmacist, was inspired by simple curiosity. One afternoon, he stirred up a fragrant, caramel-coloured liquid and, when it was done, the mixture was combined with carbonated water and sampled by customers who all agreed - this new drink was something special!"
+},
+
+{
+    "title": "Sprite",
+    "subTitle": "West Germany, 1959",
+    "description": "First introduced in 1961, crisp, refreshing, clean-tasting Sprite is now the world's leading lemon and lime flavoured soft drink and is sold in more than 190 different countries. Sprite Zero, part of our no sugar Zero range, offers the delicious lemon lime taste of Sprite without the sugar or calories."
+
+},
+
+{
+    "title": "Dr Pepper",
+    "subTitle": "Texas, 1885",
+    "description": "Dr Pepper's unique, sparkling blend of 23 fruit flavours has been around for well over a century and it's still the same, with that distinctive flavour you just can't quite put your tongue on. It was created by Texas pharmacist Charles Alderton in 1885. The distinctive, bold taste of Dr Pepper has been popular ever since."
+},
+
+{
+    "x3dModelTitle": "Playstation 1",
+    "x3dCreationMethod": "This model of Playstation one was created in 3ds Max. The logo and labels on the lid and buttons were all 3d modelled as well. The only bitmap texture used for this model are the 'memory card' labels and the CD cover. Standard materials were used for the model. Self illuminated material was used for the power light (The green light). The animation shows how the led opens witn the Open button is pressed and the roation of the CD inside the console. Some details were added at the back of the model shwoing the AUX and power terminals, as well as the memory card slots.",
+    "title": "Playstation 4 (Original)",
+    "subTitle":"First edition of PS4",
+    "description":"The PlayStation 4 (PS4) is an eighth-generation home video game console developed by Sony Interactive Entertainment. Announced as the successor to the PlayStation 3 in February, 2013, it was launched on November 15 in North America, November 29 in Europe, South America and Australia, and on February 22, 2014, in Japan. It competes with Microsoft's Xbox One and Nintendo's Wii U and Switch, and obviously is the winner"
+},
+
+{
+    "x3dModelTitle": "Playstation 4",
+    "x3dCreationMethod": "This 3d model of Playstation 4 Original was created in 3ds Max. It has a simpel rotation animation and the color of the console can be changed. The model was exported to VRML97 and then converted to 3XD using the instantreality transcoders. The blue light is supposed to be glowing, but since the glowing effect cannot be exported, a bright blue color was used to show the light effect instead.",
+    "title": "Playstation 4 (Original)",
+    "subTitle":"First edition of PS4",
+    "description":"The PlayStation 4 (PS4) is an eighth-generation home video game console developed by Sony Interactive Entertainment. Announced as the successor to the PlayStation 3 in February, 2013, it was launched on November 15 in North America, November 29 in Europe, South America and Australia, and on February 22, 2014, in Japan. It competes with Microsoft's Xbox One and Nintendo's Wii U and Switch, and obviously is the winner"
+},
+
+{
+    "x3dModelTitle": "PS4 Controller",
+    "x3dCreationMethod": "This X3D model of the original ps4 has been created in 3ds Max,exported to VRML97 and converted using the instantreality transcoders to 3XD for display online",
+    "title": "Icons Light ",
+    "subTitle":"Official Light",
+    "description":"This was relelfnsf kf=cn"
+
+},
+
+{
+    "x3dModelTitle": "Icons Light",
+    "x3dCreationMethod": "This X3D model of the original ps4 has been created in 3ds Max,exported to VRML97 and converted using the instantreality transcoders to 3XD for display online",
+    "title": "Icons Light ",
+    "subTitle":"Official Light",
+    "description":"This was relelfnsf kf=cn"
+
+    
+
+},
+
+
+
+{
+    "homeImage":["assets/images/coca_cola.jpg"]
+},
+
+{
+    "navbarLogo":["assets/images/re.png"]
+},
+
+{
+    "topCardTitle": "Camera Views, Render Settings and Lighting",
+    "topCardDescription": "The dropdown buttons are responsible for changing the camera views, rendering mode and lighting setup of the 3d model"
+},
+
+{
+"bottomCardTitle": "Play around with the model!",
+"topCardDescription": "The dropdown buttons are responsible for changing the camera views, rendering mode and lighting setup of the 3d model"
+}
+
+
+]}   

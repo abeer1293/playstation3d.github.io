@@ -1,0 +1,547 @@
+<!doctype html>
+<html lang="en"> 
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!--x3dom-->
+    <link rel='stylesheet' type='text/css' href='css/x3dom.css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+     
+    <!--CSS-->
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/slider.css" />
+    <!--Fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+   
+    <title> My Template</title>
+  </head>
+  <body id="bodyColor">
+    <!--Navagation Bar at the top-->
+
+    <audio  id="ps1intro" preload="auto">
+        
+        <source src="assets/audio/PlayStation.mp3" type="audio/mpeg">
+      
+      </audio>
+
+      <audio id="ps4intro">
+        
+        <source src="assets/audio/ps4intro.mp3" type="audio/mpeg">
+      
+      </audio>
+
+    <nav id="headerColor" class="navbar sticky-top navbar-expand-sm navbar_ps">
+        <div class="container-fluid"> 
+            <!-- Brand -->
+            <div class="logo">
+                    <a class="navbar-brand" href="#">
+                      <div id ="psLogo"></div>
+                    </a>
+            </div>
+
+            <!-- Navbar Menu Icon -->
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- link Menu Icon button to the links class navbar-collapse selector] -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Links -->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a id="navHome" class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                            <a id="navAbout" class="nav-link"  href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" title="About Web 3D Applications" data-content="3D Apps is a final year and postgraduate module ...">About</a>
+                    </li>
+
+                    <!-- Dropdown -->
+                    <a id="navModels" class="nav-link"  href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Check out the four awesome models I made" title="X3D Models" > Models</a>
+                     
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-toggle="modal" data-target="#contactModal">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+  
+   <div class="container-fluid"> <!--The whole conents of the page-->
+
+    <!--Home page contents-->
+    <div class="main_contents" id="home">
+        <div class="row">
+            <div class="col-sm-12">
+                
+                    <div id="main_text" class="col-xs-12 col-sm-4">
+                    <div id="title_home"></div>
+                    <div id = "subTitle_home"></div>
+                    <div id = "description_home"></div>
+                    </div> 
+                
+            </div>
+        </div>
+
+        <div class="row"> <!--Row for the photo slider at the bottom of the home page-->
+          <main class="content" role="content">
+              <section class="container-fluid" id="section1">
+            
+              <div class="container m-2" id="arrows"> 
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <a class="btn btn-outline-secondary prev" href="" title="go back" data-target="Previous Slide"><i class="fa fa-lg fa-chevron-left"></i></a>
+                            <a class="btn btn-outline-secondary next" href="" title="more" data-target="Next Slide"><i class="fa fa-lg fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel slide" data-ride="carousel" id="postsCarousel">
+                    <div class="row row-equal carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="col-md-4">
+                      <div class="card">
+                        <img class="card-img-top" src="https://www.androidcentral.com/sites/androidcentral.com/files/styles/large/public/article_images/2018/10/original-playstation-versus_0.jpg?itok=0ej8yh9i" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Playstion One</h5>
+                          <p class="card-text">The PlayStation is a home video game console developed and marketed by Sony Computer Entertainment. It was first released on 3 December 1994 in Japan.</p>
+                          
+                        </div>
+                      </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                      <div class="card">
+                        <img class="card-img-top" src="https://psmedia.playstation.com/is/image/psmedia/ps2-hardware-two-column-01-ps4-eu-18nov15?$TwoColumn_Image$" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Playstation 2</h5>
+                          <p class="card-text">The PlayStation 2 is a home video game console developed and marketed by Sony Computer Entertainment. It was first released in Japan on March 4, 2000 .</p>
+                          
+                        </div>
+                      </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                      <div class="card">
+                        <img class="card-img-top" src="https://pmcvariety.files.wordpress.com/2017/03/playstation-3.jpg?w=1000" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">PlayStation 3</h5>
+                          <p class="card-text">The PlayStation 3 (officially abbreviated as PS3) is a home video game console developed by Sony Computer Entertainment. It is the successor to PlayStation 2, and is part of the PlayStation brand of consoles. It was first released on November 11, 2006 in Japan.</p>
+                      
+                        </div>
+                      </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                      <div class="card">
+                        <img class="card-img-top" src="https://cdn.mos.cms.futurecdn.net/eW8gPh9RFcpAwYDsyM3t7Q.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Playstation 4</h5>
+                          <p class="card-text">The PlayStation 4 (PS4) is an eighth-generation home video game console developed by Sony Computer Entertainment. Announced as the successor to the PlayStation 3 in February 2013.</p>
+                         
+                        </div>
+                      </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+              </section>
+            
+            </main>
+      </div>
+    </div> <!--end of Home Page-->
+
+    <div id ="about">
+
+      <div class="extra">
+      <h1> Extra stuff I think might be consiered as deeper understanding</h1>
+      </div>
+    </div>
+<div id ="models" class="main_contents" style="display:none;">
+
+  <div class = "row" >
+    
+    
+</div>
+
+     
+    <div class ="row">
+        <div class="col-sm-6">
+          <div class = "card text-left">
+              <div class = "card-header"   >
+                <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                    <button type="button"  class="nav-link active" id="ps1bt" href="#" onMouseUp="ps1Scene(); ps1Description()";><img src="assets/images/ps_one.png" id="ps1icon">Playstation One</button>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"><img src="assets/images/ps4.png">Playstation 4</a>
+                    <div class="dropdown-menu">
+                        <button type="button" id="navPS4" class="dropdown-item" id="ps4bt" href="#" onMouseUp="ps4Scene(); ps4Description();";>PS4 Console</button>
+                        <button type="button" id ="navController" class="dropdown-item" href="#" onMouseup="controllerScene(); contDescription()">Sony DualShock 4</button>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"><img src="assets/images/store.png" id="store">Official Merch</a>
+                    <div class="dropdown-menu">
+                    <button type="button" id="navLight" class="dropdown-item" href="#" onMouseup="lightScene(); iconsDescription();">Icons Light</button>
+                    <a id="navCup" class="dropdown-item" href="javascript:swap('coke')">Coffee Cups</a>
+                    </div>
+                    </li>
+                </ul>
+              </div>
+              </div>
+            </div>
+          </div>
+
+    <div class="row">
+              
+        <div class="col-sm-6">
+          <div class ="card-body" id="modelCard">
+                  <div id="x3dModelTitle_ps1" class="card-text pageTextData"></div>
+                  <div id="x3dModelTitle_ps4" class="card-text pageTextData"></div>
+                  <div id="x3dModelTitle_cont" class="card-text pageTextData"></div>
+                  <div id="x3dModelTitle_icons" class="card-text pageTextData"></div>
+
+                  <div class="model3D">
+                      <x3d id="wire">
+                        <scene>
+                            <Switch whichChoice="0" id='SceneSwitch'>
+                                <transform>
+                                    <inline nameSpaceName="model" mapDEFToID="true" onclick="animateModel();" url="assets/x3d/mypsone.x3d" > </inline>
+                                </transform>
+                                <transform>
+                                    <inline nameSpaceName="model" mapDEFToID="true" onclick="animateModelps4();" url="assets/x3d/myplaystation.x3d"> </inline>
+                                </transform>
+                                <transform>
+                                    <inline nameSpaceName="model" mapDEFToID="true" onclick="animateModel();" url="assets/x3d/mycont.x3d"> </inline>
+                                </transform>
+
+                                <transform>
+                                    <inline nameSpaceName="model" mapDEFToID="true" onclick="animateModel();" url="assets/x3d/mylights.x3d"> </inline>
+                                </transform>
+                            </Switch>
+                        </scene>
+                      </x3d>
+                    </div> 
+
+             
+            </div>
+
+              
+
+          </div>
+
+          <div class="col-sm-3" id="interaction">
+         
+            <!-- Column for the camera view controls -->
+                <div id="cameraControls" class="card text-left">
+                    <div class="card-header">
+                      <ul class="nav nav-tabs card-header-tabs">
+                      <!-- Dropdown nav-tab -->
+                      <li class="nav-item dropdown">
+                          <a class="nav-link active dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Cameras</a>
+                          <div class="dropdown-menu">
+                             
+                            <a class="dropdown-item" href="#" onclick="cameraFront();">Front</a>
+                            <a class="dropdown-item" href="#" onclick="cameraBack();">Back</a>
+                            <a class="dropdown-item" href="#" onclick="cameraTop();">Top</a>
+                            <a class="dropdown-item" href="#" onclick="cameraRight();">Side</a>
+                            <a class="dropdown-item" href="#" onclick="cameraDefault();">Default</a>
+                            
+                          </div>
+                        </li>
+
+                        <li class="nav-item">
+                          <a class="nav-link active dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" >Render</a>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#" onclick="polygon();">Polygon</a>
+                            <a class="dropdown-item" href="#" onclick="wireframe();">Wireframe</a> 
+                            <a class="dropdown-item" href="#" onclick="vertex();">Vertex</a>
+                          </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Lights</a>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Default</a>
+                            <a class="dropdown-item" href="#" onclick="omniLights();">Onmi On/Off</a>
+                            <a class="dropdown-item" href="#" onclick="texChange();">Target On/Off</a>
+                            <a class="dropdown-item" href="#" onclick="headlight();">Headlight On/Off</a>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="card-body">
+                      <div id="topCardTitles" class="card-Title" ></div>                            
+                     
+                      
+                      <div id="topCardDescriptions" class="card-text ">
+                       
+                      </div>
+                    </div>
+                  </div>
+            
+          
+
+          
+              <div id="animationControls" class="card text-left">
+                  <div class="card-header">
+                      <div id="bottomCardTitles"></div>
+                    <ul class="nav nav-tabs card-header-tabs">
+                      <li class="nav-item dropdown">
+                        <a class= " nav-link active dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Animation</a>
+                        <div class="dropdown-menu">
+                           
+                    <a href="#" class="dropdown-item" id="openPs1" onclick="spin();">Open the lid!</a>
+                    <a href="#" class="dropdown-item" id="playCD" onclick="rotatecd();">Rotate the CD</a>
+                    
+                    <a href="#" class="dropdown-item" id="movePS4" onclick="spin2();" >Rotate this beauty</a>
+                    <a href="#" class="dropdown-item" id="stop" onclick="stopRotation(); stopRotations();">Stop</a>
+
+                    
+                    <a href="#" class="dropdown-item" id="square" onclick="spinsq();"><img src="assets/images/square.png" id="tv"></a>
+                    <a href="#" class="dropdown-item" id="x" onclick="spinx()"><img src="assets/images/x.ico" id="tv"></a>
+                    <a href="#" class="dropdown-item" id="circle" onclick="spinc();"><img src="assets/images/circle.png" id="tv"></a>
+                    <a href="#" class="dropdown-item" id="tri" onclick="spintri();"><img src="assets/images/tri.png" id="tv"></a>
+                 
+                    <a href="#" class="dropdown-item" id="r" onclick="joyR()">Right Joystick</a>
+                    <a href="#" class="dropdown-item" id="l" onclick="joyL();">Left Joystick</a>
+                        </div>
+                      </li>
+
+                     <!-- <li class="nav-item dropdown">
+                          <a class= " nav-link active dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Extra Options</a>
+                          <div class="dropdown-menu">
+                             
+                      <a href="#" class="dropdown-item" id="ps1color" onclick="ps1Color();">Change the color</a>
+                      <a class="dropdown-item" id="game" href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Make sure you open the lid first" id="ps1cd" onclick="texChange();">Try a different game</a>
+                      
+                      <a href="#" class="dropdown-item" id="ps1audio" onclick="playAudio();" >Play that nostalgic inro</a>
+
+                      <a href="#" class="dropdown-item" id="lightcolor" onclick="controllerColor ()">Change light color!</a>
+                    <a href="#" class="dropdown-item" id="contlogo" onclick="ps4Colors()">Maybe a different logo?</a>
+                          </div>
+                        </li>-->
+
+                      
+                    </ul>
+                  </div>
+                  <div id="animationButtons" class="card-body">
+                    <div class="card-Title x3dAnimationSubtitle homeText">
+                      <h3>Extra Options</h3>
+                    </div>
+
+                    <button href="#" class="button" id="ps1color" onclick=" ps1Color();">Change the color</button>
+                      <button class="button" id="game" href="#" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="Make sure you open the lid first" id="ps1cd" onclick="texChange();">Try a different game</button>
+                      
+                     
+                      <button class="button" href="#"  id="lightcolor" onclick="controllerColor ();">Change light color!</button>
+                    <button class="button" href="#"  id="contlogo" onclick="dualColor();">Change color</button>
+                    <button class="button" href="#"  id="ps4colors" onclick="ps4Color ();">Explore different colors</button>
+                    <button class="button" href="#"  id="iconsspec" onclick="flipSwitch();">Flip the switch off!</button>
+                    
+                    <div class="card-text x3dAnimationDescription drinksText">
+                        <p></p>
+                        <button controls loop class="button ps1button" href="#"  id="ps1audio" onclick="togglePlay();" >Play that nostalgic inro</button>
+                        <button controls loop class="button ps4button" href="#"  id="ps4audio" onclick="togglesPlay();" >Play the theme music</button>
+                    
+                          
+                          
+                          
+                        
+                          
+                    </div>
+                  </div>
+
+                  
+                </div>
+              </div>
+
+            <div class="col-sm-3">
+
+              <div class="card text-left">
+                  <div class="card-header">
+                    <ul class="nav nav-tabs card-header-tabs">
+                      
+                    <h3> About the Model</h3>
+                    </ul>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-Title x3dRendersubtitle homeText">
+                      <h3>Render and Lighting Options</h3>
+                    </div>
+                    
+                    <div class="card-text x3dRenderDescription drinksText">
+                        <div id="x3dCreationMethod_ps1" class="card-text pageTextData"></div>
+                        <div id="x3dCreationMethod_ps4" class="card-text pageTextData"></div>
+                        <div id="x3dCreationMethod_cont" class="card-text pageTextData"></div>
+                        <div id="x3dCreationMethod_icons" class="card-text pageTextData"></div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+          </div>
+
+
+ <div class ="row">
+            <div class="col-sm-5">
+                <div class = "card text-left">
+                  <div class="card-header gallery-header">
+                    Gallery
+                  </div>
+                  <div class ="card-body">
+                    <h4 class ="card-title">3D Images</h4>
+                     <div class="gallery" id="gallery"></div>
+                    <p class="card-text">These images are rendered in 3ds max </p>
+                     </div>
+                  </div>
+              </div>
+            
+              </div>
+          
+          </div>
+          
+            
+          
+
+
+
+          </div>
+      
+              
+           <!--End of the model and gallery row--> 
+             
+              
+       <!-- End row for the interaction panels -->
+
+    </div>
+      
+  
+
+  <div class="row"> 
+       
+
+         <!-- Row which holds the card with the text-->
+ <div id ="cokeDescription" class = "row">
+    <div class="col-sm-12">
+      <div class ="card">
+        <div class="card-body">
+          <div id="title_ps4" class="card-title homeText"></div>
+          <div id="subTitle_ps4" class="card-subtitle homeText"></div>
+          <div id="description_ps4" class="card-text homeText"></div> 
+          <a href="http://www.coca-cola.co.uk/drinks/coca-cola/coca-cola" class="btn btn-primary">Find out more</a>
+        </div>
+      </div>
+    </div> 
+  </div>
+
+
+     <!-- Row which holds the card with the text-->
+     <div id ="spriteDescription" class = "row">
+        <div class="col-sm-12">
+          <div class ="card">
+            <div class="card-body">
+              <div id="title_sprite" class="card-title homeText"></div>
+              <div id="subTitle_sprite" class="card-subtitle homeText"></div>
+              <div id="description_sprite" class="card-text homeText"></div> 
+              <a href="http://www.coca-cola.co.uk/drinks/coca-cola/coca-cola" class="btn btn-primary">Find out more</a>
+            </div>
+          </div>
+        </div> 
+      </div>       
+      
+
+    </div> 
+     
+  
+    
+
+ 
+    <!--Footer-->
+
+    <nav id="footerColor" class="navbar navbar-expand-sm footer">
+      <div class="container-fluid">   
+          <div class="navbar-text float-left copyright">
+              <p><span class="align-baseline">&copy 2019 Mobile Web 3D Applications | <a href="javascript:changeLook()">Restyle</a> | <a href="javascript:changeBack()">Reset</a></span></p>
+          </div>
+          <div class="navbar-text float-right social">
+              <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+              <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+              <a href="#"><i class="fab fa-google-plus fa-2x"></i></a>
+              <a href="#"><i class="fab fa-github-square fa-2x"></i></a>
+          </div>
+      </div>
+  </nav> 
+
+
+  <!-- Contact modal -->
+  <!-- The Modal -->
+  <div class="modal fade" id="contactModal">
+      <div class="modal-dialog">
+          <div class="modal-content">
+          
+          <!-- Modal Header -->
+          <div class="modal-header">
+              <h4 class="modal-title">3D App Contact Details</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          
+          <!-- Modal body -->
+          <div class="modal-body">
+              <p>Abeer</p>
+          </div>
+          
+          <!-- Modal footer -->
+          <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          </div>
+          
+          </div>
+      </div>
+  </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.1.1.js"></script>
+    <!---<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+
+  
+   <!--My custom js link-->
+   <script src="js/custom.js" crossorigin="anonymous"></script>
+
+    <!-- JavaScript to swap for SPA and restyle -->
+    <script src="js/swap_restyle.js"></script>
+
+   <!--x3dom js link-->
+   <script type='text/javascript' src='js/x3dom.js'></script>
+
+   <!--Gallery Generator script-->
+   <script type="text/javascript" src="js/gallery_generator.js"></script>
+
+   <script src ="js/getJsonData.js"></script>
+
+   <!-- JavaScript model interactions -->
+   <script src="js/modelInteraction.js"></script>
+ 
+
+   <!--fancyBox3 => http://fancyapps.com/fancybox/3/ -->
+   <script src="js/jquery.fancybox.min.js"></script>
+
+   <script src="js/photoSlider.js"></script>
+    
+  </body>
+</html>
